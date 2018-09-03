@@ -1,6 +1,3 @@
-/**
-Merge Sort Algorithm C++ Example by Codebind.com
-*/
 #include <iostream>
  
 void PrintArray(int *array, int n) {
