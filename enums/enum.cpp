@@ -12,20 +12,6 @@ TIRED,
 BLUE // error, BLUE was already used in enum Color in the global namespace
 };
 
-
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
 enum Color
 {
     COLOR_BLACK, // assigned 0
