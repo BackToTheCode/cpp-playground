@@ -18,3 +18,17 @@ int main()
  
     return 0;
 }
+
+// =====
+class Something
+{
+public:
+    int m_value;
+ 
+    Something() { m_value= 0; }
+ 
+    void resetValue() { m_value = 0; }
+    void setValue(int value) { m_value = value; }
+ 
+    int getValue() const { return m_value; } // note addition of const keyword after parameter list, but before function body
+};
