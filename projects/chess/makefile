@@ -1,2 +1,2 @@
-default: main.cpp
-	g++ -Wall -std=c++14 -o chess main.cpp
+default: chess.cpp
+	g++ -Wall -std=c++14 -o chess chess.cpp
