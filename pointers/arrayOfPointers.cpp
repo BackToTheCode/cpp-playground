@@ -12,7 +12,12 @@ int main() {
     for (int count = 0; count < 10; ++count)
         array[count] = new int[5]; // these are our columns
 
-    std::cout << **array << "\n";
+    std::cout << array[0] << "\n";
+
+
+    for (int count = 0; count < 10; ++count)
+        delete[] array[count];
+    delete[] array; // this needs to be done last
 
     return 0;
 }
